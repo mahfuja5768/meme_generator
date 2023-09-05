@@ -1,11 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
 .meme_generator {
   font-family: "Roboto", sans-serif;
   text-align: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .meme_generator img {
-  height: 430px;
+  height: 100%;
   object-fit: cover;
+  width: 100%;
 }
 
 .meme_generator .generator_btn {
@@ -30,7 +43,18 @@
     background-color: #fad6f8;
   }
   
+.meme_title{
+  margin: 30px auto;
+}
 
-  .meme_generator .meme_author{
-    margin: 8px;
+@media screen and (max-width: 576px) {
+  body{
+    width: 90%;
   }
+  .meme_generator {
+    width: 90%;
+  }
+  .meme_generator img {
+    width: 90%;
+  }
+}
