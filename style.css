@@ -7,18 +7,20 @@ body{
   max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+  height: 100vh;
 }
 .meme_generator {
   font-family: "Roboto", sans-serif;
   text-align: center;
   margin: 0 auto;
   width: 100%;
+  height: 100vh;
 }
 
 .meme_generator img {
-  height: 100%;
+  height: 50%;
   object-fit: cover;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .meme_generator .generator_btn {
